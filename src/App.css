@@ -724,9 +724,9 @@ video::-webkit-media-controls-panel {
   }
 
   .featuresCard{
-    margin-bottom: 30px;
+    margin: 20px auto;
     align-items: center;
-    width: 311px;
+    width: 320px;
   }
   .featuresCarousal {
     display: flex;
