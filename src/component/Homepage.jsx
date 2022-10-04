@@ -136,11 +136,9 @@ export default function Homepage() {
           </div>
 
           <div className="coinImg">
-          <img src={require("../assets/coin1.png")} alt="" />
+            <img src={require("../assets/coin1.png")} alt="" />
+          </div>
         </div>
-        </div>
-
-        
       </section>
 
       <div className="common-container">

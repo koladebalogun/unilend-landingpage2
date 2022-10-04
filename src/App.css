@@ -725,6 +725,8 @@ video::-webkit-media-controls-panel {
 
   .featuresCard{
     margin-bottom: 30px;
+    align-items: center;
+    width: 300px;
   }
   .featuresCarousal {
     display: flex;
