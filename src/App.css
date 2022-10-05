@@ -104,7 +104,7 @@ body {
     line-height: 0px;
   }
   .platform_container h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .platforms{
@@ -338,9 +338,14 @@ video::-webkit-media-controls-panel {
     align-self: center;
   }
   .headerTextContainer p {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     margin: 0;
+  }
+
+  .headerTextContainer p::after{
+    content: "\a";
+    white-space: pre;
   }
 
   /* .navBarContainer {
@@ -362,11 +367,12 @@ video::-webkit-media-controls-panel {
     margin-right: 1rem;
   }
   .headerTextContainer p {
-    font-size: 22px;
+    font-size: 32px;
     text-align: center;
     margin: 0;
     padding: 0 2rem;
   }
+
   .mainLogoContainer {
     padding: 0 1rem;
   }
@@ -721,6 +727,13 @@ video::-webkit-media-controls-panel {
 @media only screen and (max-width: 500px) {
   .featuresContainer {
     display: block;
+  }
+
+  .featuresTextContainer .imgSection img{
+    display: block;
+    margin: 0 auto;
+    /* align-items: center;
+    justify-content: center; */
   }
 
   .featuresCard{
