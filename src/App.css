@@ -218,7 +218,7 @@ video::-webkit-media-controls-panel {
   flex-wrap: nowrap;
   gap: 1rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style-type: none;
   color: "#202f44";
   position: relative;
@@ -228,6 +228,9 @@ video::-webkit-media-controls-panel {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 

@@ -1,7 +1,8 @@
 import React,{ useState } from "react";
 import logo from "../assets/logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
-import drop from "../assets/drop.png";
+import {RiArrowDropDownLine} from "react-icons/ri"
+
 
 export default function Navbar() {
   const [dropDown, setDropDown] = useState(false);
@@ -19,7 +20,7 @@ export default function Navbar() {
 
             <li onClick={() => setDropDown(!dropDown)}>
               Developers 
-              <img src={drop} alt="" className="dropicon"/>
+              <RiArrowDropDownLine style={{fontSize:'30px'}}/>
             </li>
 
             {dropDown && (
