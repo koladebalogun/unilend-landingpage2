@@ -228,6 +228,7 @@ video::-webkit-media-controls-panel {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+
 }
 
 .header li a:active {
