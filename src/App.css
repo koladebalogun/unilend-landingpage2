@@ -104,11 +104,11 @@ body {
     line-height: 0px;
   }
   .platform_container h1 {
-    font-size: 35px;
+    font-size: 22px;
   }
 
   .platforms{
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
 
@@ -367,7 +367,7 @@ video::-webkit-media-controls-panel {
     margin-right: 1rem;
   }
   .headerTextContainer p {
-    font-size: 32px;
+    font-size: 22px;
     text-align: center;
     margin: 0;
     padding: 0 2rem;
@@ -558,7 +558,7 @@ video::-webkit-media-controls-panel {
   width: 100%;
   margin-top: 42px;
   display: grid;
-  grid-template-columns: repeat(3, 500px);
+  grid-template-columns: repeat(3, 400px);
   row-gap: 4rem;
   column-gap: 4rem;
   /* display: grid;
