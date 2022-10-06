@@ -1679,6 +1679,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   gap: 20px;
   /* width: 335px; */
 }
+
 .write-aboutus-card-content {
   font-weight: bold;
   font-size: 20px;
@@ -1687,6 +1688,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   opacity: 0.8;
   text-align: left;
 }
+
 .write-aboutus-card-sub-content {
   justify-content: space-between;
   display: flex;
