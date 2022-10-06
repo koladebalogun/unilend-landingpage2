@@ -979,15 +979,6 @@ video::-webkit-media-controls-panel {
   z-index: -1;
 }
 
-.explore-dapp-content-2 {
-  /* display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 34px;
-  width: 400px;
-  height: 600px; */
-}
 
 .explore-dapp-content-2 img {
   width: 677px;
