@@ -964,7 +964,7 @@ video::-webkit-media-controls-panel {
   top: 63%;
   left: -3%;
   width: 850px;
-  z-index: -3;
+  z-index: -2;
 }
 
 .coinImg img {
