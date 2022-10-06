@@ -961,7 +961,7 @@ video::-webkit-media-controls-panel {
 
 .coin1 img {
   position: absolute;
-  top: 35%;
+  top: 63%;
   left: -3%;
   width: 850px;
   z-index: -3;
@@ -970,7 +970,7 @@ video::-webkit-media-controls-panel {
 .coinImg img {
   position: absolute;
   bottom: -20%;
-  right: -5%;
+  right: 1%;
   width: 850px;
   z-index: -1;
 }
@@ -2146,3 +2146,4 @@ div.highway-slider ul.highway-lane li.highway-car {
     transform: translateX(0);
   }
 }
+

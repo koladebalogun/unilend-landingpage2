@@ -8,14 +8,21 @@ import explore from "../assets/exploreImg5.png";
 import explore2 from "../assets/exploreImg4.png";
 import binanceImg from "../assets/binance.svg";
 import uniswap from "../assets/uniswap.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // import { TestimonyCarousel } from "../utils/Carousel";
 
 export default function Homepage() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div>
       <div class="headerTextContainer">
-    <p><span class="colorText">Making Every</span>&nbsp;Asset Productive</p>
-  </div>
+        <p>
+          <span class="colorText">Making Every</span>&nbsp;Asset Productive
+        </p>
+      </div>
 
       <div className="bannerImgContainer">
         <video className="bannerImg" autoPlay loop muted>
@@ -41,20 +48,46 @@ export default function Homepage() {
       </div>
 
       <section id="platforms-to-trade">
-        <div className="platform_container">
+        <div
+          className="platform_container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <h1>
             Trade UFT Token <br />
             <span>On Major Exchanges</span>
           </h1>
           <div className="platforms">
-            <img src={binanceImg} alt="" />
-            <img src={uniswap} alt="" />
+            <img
+              src={binanceImg}
+              alt=""
+              data-aos="fade-up"
+              data-aos-offset="28"
+              data-aos-easing="ease-in"
+              data-aos-duration="1000"
+            />
+            <img
+              src={uniswap}
+              alt=""
+              data-aos="fade-up"
+              data-aos-offset="28"
+              data-aos-easing="ease-in"
+              data-aos-duration="1000"
+            />
           </div>
         </div>
       </section>
 
       <section id="explore-dapp-section">
-        <div className="explore-dapp-container">
+        <div
+          className="explore-dapp-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="explore-dapp-content">
             <div className="explore-dapp-title">
               Explore <br />
@@ -109,7 +142,13 @@ export default function Homepage() {
           </div>
         </div> */}
 
-        <div className="explore-dapp-container container2">
+        <div
+          className="explore-dapp-container container2"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="explore-dapp-content-2">
             <img src={explore2} alt="exploreImg2" />
           </div>
@@ -131,14 +170,19 @@ export default function Homepage() {
               Launch Dapp
             </div>
           </div>
-
         </div>
-          <div className="coinImg">
-            <img src={require("../assets/coin1.png")} alt="" />
-          </div>
+        <div className="coinImg">
+          <img src={require("../assets/coin1.png")} alt="" />
+        </div>
       </section>
 
-      <div className="common-container">
+      <div
+        className="common-container"
+        data-aos="fade-up"
+        data-aos-offset="30"
+        data-aos-easing="ease-in"
+        data-aos-duration="1000"
+      >
         <div className="container-title">
           Our
           <br />
@@ -287,7 +331,13 @@ export default function Homepage() {
       </div>
 
       <section id="our-ecosystem-section">
-        <div className="common-container">
+        <div
+          className="common-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="container-title">
             Our <br />
             <span className="container-title-sub">Ecosystem</span>
@@ -1131,7 +1181,13 @@ export default function Homepage() {
 
       <section id="get-involved-section">
         <div className="get-involved-container">
-          <div className="get-involved-content">
+          <div
+            className="get-involved-content"
+            data-aos="fade-up-right"
+            data-aos-offset="30"
+            data-aos-easing="ease-in"
+            data-aos-duration="1000"
+          >
             <div className="get-involved-title">
               Get involved <br />
               <span style={{ fontWeight: "bold" }}>with us</span>
@@ -1151,7 +1207,13 @@ export default function Homepage() {
             </button>
           </div>
 
-          <div className="get-involved-content-2">
+          <div
+            className="get-involved-content-2"
+            data-aos="fade-up-left"
+            data-aos-offset="30"
+            data-aos-easing="ease-in"
+            data-aos-duration="1000"
+          >
             <div>
               <div className="get-involved-content-title">For Projects</div>
               <div className="get-involved-content-sub-title">
@@ -1204,7 +1266,13 @@ export default function Homepage() {
       </section> */}
 
       <section id="block-news-section">
-        <div className="common-container">
+        <div
+          className="common-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="container-title">
             Blog <br />
             <span className="container-title-sub">& News</span>
@@ -1277,7 +1345,13 @@ export default function Homepage() {
       </section>
 
       <section id="they-write-aboutus-section">
-        <div className="common-container">
+        <div
+          className="common-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="container-title">
             They Write <br />
             <span className="container-title-sub">About Us</span>
@@ -1439,7 +1513,13 @@ export default function Homepage() {
       </section>
 
       <section id="our-community-section">
-        <div className="common-container">
+        <div
+          className="common-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="container-title">
             Join our
             <br />
@@ -1520,7 +1600,13 @@ export default function Homepage() {
       </section>
 
       <section id="footer-section">
-        <div className="common-container">
+        <div
+          className="common-container"
+          data-aos="fade-up"
+          data-aos-offset="30"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000"
+        >
           <div className="footer-container">
             <ul className="footer-first-child">
               <li className="footer-title">GENERAL</li>
