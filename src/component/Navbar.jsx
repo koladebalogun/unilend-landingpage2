@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="nav-dropDown">
               <ul>
                 <li>
-                  <a href="https://unilend.gitbook.io/unilend-finance/" style={{color:'#202F44', textDecoration:'none'}}>
+                  <a href="https://unilend.gitbook.io/unilend-finance/" style={{color:'#202F44', textDecoration:'none', textAlign:'justify'}}>
                     Gitbook
                   </a>
                 </li>

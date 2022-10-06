@@ -233,7 +233,6 @@ video::-webkit-media-controls-panel {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
 
 }
 
@@ -317,20 +316,21 @@ video::-webkit-media-controls-panel {
   left: 19%;
   top: 40px;
   padding: 0;
+  text-align: justify;
 }
 
 .nav-dropDown ul {
   padding: 0 0 0 20px;
-  text-align: justify;
 }
 
-.nav-dropDown ul li {
+.nav-dropDown li {
   text-decoration: none;
   list-style: none;
   line-height: 37px;
   color: #202f44;
   font-weight: 700;
   font-size: 14.2575px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -876,15 +876,15 @@ video::-webkit-media-controls-panel {
 .our-ecosystem-card-container .slider1 {
   margin-top: 50px;
   display: flex;
-  gap: 20px;
-  margin-bottom: 5px;
+  column-gap: 80px;
+  margin-bottom: 20px;
   animation: slide 40s linear infinite;
 }
 
 .our-ecosystem-card-container .slider2 {
   text-align: center;
-  gap: 20px;
-  margin-bottom: 5px;
+  column-gap: 80px;
+  margin-bottom: 20px;
   display: flex;
   animation: slide2 40s linear infinite;
   align-items: center;
@@ -892,7 +892,7 @@ video::-webkit-media-controls-panel {
 
 .our-ecosystem-card-container .slider3 {
   text-align: center;
-  gap: 30px;
+  gap: 80px;
   display: flex;
   animation: slide 40s linear infinite;
 }
@@ -965,9 +965,9 @@ video::-webkit-media-controls-panel {
 
 .coin1 img {
   position: absolute;
-  top: 63%;
-  left: -3%;
-  width: 850px;
+  top: 40%;
+  left: -2%;
+  width: 800px;
   z-index: -2;
 }
 
@@ -975,7 +975,7 @@ video::-webkit-media-controls-panel {
   position: absolute;
   bottom: -20%;
   right: 1%;
-  width: 850px;
+  width: 800px;
   z-index: -1;
 }
 
@@ -1154,7 +1154,7 @@ video::-webkit-media-controls-panel {
     row-gap: 8rem;
   }
   .explore-content-margin {
-    margin-left: 23%;
+    margin-left: 20%;
   }
 }
 
@@ -1644,7 +1644,6 @@ div.highway-slider ul.highway-lane li.highway-car {
   line-height: 134%;
   letter-spacing: -0.005em;
   color: var(--title-color2);
-  padding-left: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {

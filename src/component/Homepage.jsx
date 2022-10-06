@@ -114,11 +114,11 @@ export default function Homepage() {
           <div className="explore-dapp-content-1">
             <img src={explore} alt="exploreImg1" id="exploreImg" />
           </div>
+        </div>
 
-          <div className="coin1">
+        <div className="coin1">
             <img src={require("../assets/hovercoins1.png")} alt="" />
           </div>
-        </div>
 
         {/* <div className="mobile-explore-dapp-container">
           <div className="explore-dapp-content">
@@ -171,6 +171,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
+
         <div className="coinImg">
           <img src={require("../assets/coin1.png")} alt="" />
         </div>
