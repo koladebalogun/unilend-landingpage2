@@ -625,6 +625,8 @@ video::-webkit-media-controls-panel {
   font-size: 16px;
   line-height: 149.5%;
 }
+
+
 .featuresCard p {
   font-weight: 600;
   font-size: 10.1331px;
@@ -635,6 +637,7 @@ video::-webkit-media-controls-panel {
   opacity: 0.8;
   padding: 1.2rem 0 0.7rem 0;
 }
+
 .featuresCard h4 {
   font-weight: bold;
   font-size: 12.6664px;
