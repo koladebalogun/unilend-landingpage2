@@ -959,7 +959,7 @@ video::-webkit-media-controls-panel {
 
 .coinImg img {
   position: absolute;
-  bottom: -25%;
+  bottom: -20%;
   right: -5%;
   width: 850px;
   z-index: -1;
