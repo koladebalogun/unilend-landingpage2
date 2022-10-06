@@ -55,9 +55,13 @@ body {
   background-color: var(--app-bg) !important;
   color: var(--app-color) !important;
 }
+
+
 .read-more {
   margin: 30px 0px;
 }
+
+
 .platform_container {
   width: 45%;
   margin: 50px auto;
@@ -193,9 +197,8 @@ video::-webkit-media-controls-panel {
 
 .navBarContainer {
   display: grid;
-  /* grid-template-columns: 40% 30% 30%; */
   grid-template-columns: 50% 50%;
-  padding: 3rem 2rem;
+  padding: 35px 50px;
   max-width: 2000px;
   margin: auto;
 }
@@ -390,7 +393,8 @@ video::-webkit-media-controls-panel {
 }
 @media only screen and (min-width: 1500px) {
   .navBarContainer {
-    padding: 3rem 5rem;
+    padding: 35px 50px;
+
   }
 }
 
