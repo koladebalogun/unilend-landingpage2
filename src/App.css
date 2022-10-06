@@ -558,7 +558,7 @@ video::-webkit-media-controls-panel {
   width: 100%;
   margin-top: 42px;
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 35%);
   row-gap: 4rem;
   column-gap: 4rem;
   /* display: grid;
