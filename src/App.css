@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  /* border: 2px solid red; */
+  font-family: 'Montserrat', sans-serif;
+    /* border: 2px solid red; */
 }
 
 :root {
@@ -72,7 +72,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 55px;
   color: var(--color);
   text-align: center;
 }
@@ -247,6 +247,7 @@ video::-webkit-media-controls-panel {
 .headerTextContainer p {
   font-weight: bold;
   font-size: 3.2663rem;
+  font-family: "Montserrat", sans-serif;
   /* margin: 5rem 0; */
   text-align: center;
 }
@@ -594,6 +595,7 @@ video::-webkit-media-controls-panel {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
 }
 
 .featuresTextContainer .imgSection img {
@@ -619,8 +621,8 @@ video::-webkit-media-controls-panel {
 } */
 .featuresCard h5 {
   color: var(--text-blue);
-  font-weight: bold;
-  font-size: 20.07px;
+  /* font-weight: bold; */
+  font-size: 16px;
   line-height: 149.5%;
 }
 .featuresCard p {
@@ -639,8 +641,12 @@ video::-webkit-media-controls-panel {
   line-height: 149.5%;
   color: var(--text-blue);
   margin-top: 30px;
+  display: flex;
+  align-items: center;
   /* padding: 1rem 0; */
 }
+
+
 .featuresHeaderContainer {
   font-size: 1.5rem;
   padding: 2rem 5rem;

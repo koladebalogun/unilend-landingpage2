@@ -13,12 +13,9 @@ import uniswap from "../assets/uniswap.svg";
 export default function Homepage() {
   return (
     <div>
-      <div className="headerTextContainer">
-        <p>
-          <span class="colorText">Making Every</span>&nbsp;
-          <span>Asset Productive</span>
-        </p>
-      </div>
+      <div class="headerTextContainer">
+    <p><span class="colorText">Making Every</span>&nbsp;Asset Productive</p>
+  </div>
 
       <div className="bannerImgContainer">
         <video className="bannerImg" autoPlay loop muted>
