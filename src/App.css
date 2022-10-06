@@ -924,7 +924,6 @@ video::-webkit-media-controls-panel {
   justify-content: space-between;
   padding: 100px 10rem 0rem 10rem;
   gap: 2rem;
-  position: relative;
   /* align-items: center; */
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr; */
@@ -945,21 +944,22 @@ video::-webkit-media-controls-panel {
 
 .coin1 img {
   position: absolute;
-  top: 70%;
-  left: 1%;
+  top: 35%;
+  left: -3%;
   width: 850px;
   z-index: -3;
 }
 
-.container2 {
+
+#explore-dapp-section{
   position: relative;
 }
 
 .coinImg img {
   position: absolute;
-  bottom: -60%;
-  right: -3%;
-  width: 1400px;
+  bottom: -25%;
+  right: -5%;
+  width: 850px;
   z-index: -1;
 }
 
