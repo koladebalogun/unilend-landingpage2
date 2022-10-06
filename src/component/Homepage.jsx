@@ -51,7 +51,7 @@ export default function Homepage() {
         <div
           className="platform_container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -84,7 +84,7 @@ export default function Homepage() {
         <div
           className="explore-dapp-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -145,7 +145,7 @@ export default function Homepage() {
         <div
           className="explore-dapp-container container2"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -179,7 +179,7 @@ export default function Homepage() {
       <div
         className="common-container"
         data-aos="fade-up"
-        data-aos-offset="30"
+        data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="1000"
       >
@@ -334,7 +334,7 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -1184,7 +1184,7 @@ export default function Homepage() {
           <div
             className="get-involved-content"
             data-aos="fade-up-right"
-            data-aos-offset="30"
+            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="1000"
           >
@@ -1210,7 +1210,7 @@ export default function Homepage() {
           <div
             className="get-involved-content-2"
             data-aos="fade-up-left"
-            data-aos-offset="30"
+            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="1000"
           >
@@ -1269,7 +1269,7 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -1348,7 +1348,7 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -1516,7 +1516,7 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
@@ -1603,7 +1603,7 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="30"
+          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
