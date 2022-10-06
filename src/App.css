@@ -919,6 +919,10 @@ video::-webkit-media-controls-panel {
 
 /* explore dapp section */
 
+#explore-dapp-section{
+  position: relative;
+}
+
 .explore-dapp-container {
   display: flex;
   justify-content: space-between;
@@ -951,9 +955,7 @@ video::-webkit-media-controls-panel {
 }
 
 
-#explore-dapp-section{
-  position: relative;
-}
+
 
 .coinImg img {
   position: absolute;
