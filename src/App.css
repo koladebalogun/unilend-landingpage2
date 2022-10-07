@@ -70,6 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .platform_container h1 {
@@ -945,6 +946,7 @@ video::-webkit-media-controls-panel {
   justify-content: space-between;
   padding: 100px 10rem 0rem 10rem;
   gap: 2rem;
+  overflow: hidden;
   /* align-items: center; */
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr; */
@@ -956,6 +958,7 @@ video::-webkit-media-controls-panel {
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  overflow: hidden;
 }
 
 .explore-dapp-content-1 img {
@@ -966,7 +969,7 @@ video::-webkit-media-controls-panel {
 .coin1 img {
   position: absolute;
   top: 40%;
-  left: -2%;
+  left: -1%;
   width: 800px;
   z-index: -2;
 }
@@ -974,7 +977,7 @@ video::-webkit-media-controls-panel {
 .coinImg img {
   position: absolute;
   bottom: -20%;
-  right: 1%;
+  right: -2%;
   width: 800px;
   z-index: -1;
 }
@@ -1524,7 +1527,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 .get-involved-content-2 {
   display: flex;
-  flex-basis: 48%;
+  flex-basis: 39%;
   flex-direction: column;
   gap: 3rem;
   margin: -5px 0 0 0;

@@ -88,19 +88,26 @@ export default function Homepage() {
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
-          <div className="explore-dapp-content">
-            <div className="explore-dapp-title">
+          <div className="explore-dapp-content"
+          data-aos="fade-up-right"
+          data-aos-offset="200"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000">
+            <div className="explore-dapp-title"
+            >
               Explore <br />
               <span style={{ fontWeight: "bold" }}>Omnis Dapp</span>
             </div>
 
-            <div className="explore-dapp-sub-title">
+            <div className="explore-dapp-sub-title"
+            >
               UniLend brings v2 OMNIS, a multichain permissionless protocol that
               enables Isolated Dual Asset Pool for lending and borrowing of all
               ERC20 tokens.
             </div>
 
-            <div className="explore-dapp-button">
+            <div className="explore-dapp-button"
+            >
               <a
                 href="https://unilendv2-testnet.netlify.app/"
                 style={{ color: "#0045ff", textDecoration: "none" }}
@@ -152,7 +159,11 @@ export default function Homepage() {
           <div className="explore-dapp-content-2">
             <img src={explore2} alt="exploreImg2" />
           </div>
-          <div className="explore-dapp-content explore-content-margin">
+          <div className="explore-dapp-content explore-content-margin"
+          data-aos="fade-up-left"
+          data-aos-offset="200"
+          data-aos-easing="ease-in"
+          data-aos-duration="1000">
             <div className="explore-dapp-title">
               Explore <br />
               <span style={{ fontWeight: "bold" }}>Omnis Dapp</span>
