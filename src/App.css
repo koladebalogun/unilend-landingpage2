@@ -6,6 +6,10 @@
     /* border: 2px solid red; */
 }
 
+body, html{
+  overflow-x: hidden;
+}
+
 :root {
   --white: #ffffff;
   --white2: #eef0fa;
@@ -79,6 +83,7 @@ body {
   font-size: 55px;
   color: var(--color);
   text-align: center;
+
 }
 
 .platform_container h1 span {
@@ -87,7 +92,9 @@ body {
 
 .platforms {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 184px;
+
 }
 
 /* .platforms a {
@@ -96,12 +103,17 @@ body {
   width: 40%;
 } */
 
-.platformInner img{
+.platformInner{
   background-color: var(--color);
   padding: 15px 25px;
   border-radius: 10px;
-  width: 80%;
-  height: 100%;
+  /* width: 10%; */
+  /* height: 124px; */
+}
+
+.pimg{
+  width: 250px;
+  height: 61px;
 }
 
 
@@ -123,16 +135,24 @@ body {
 
   .platforms{
     margin-top: 11px;
+    column-gap: 30px;
+    padding: 20px 2rem 0 2rem;
+
   }
 
 
-  .platformInner img {
+  .platformInner {
     background-color: var(--color);
     padding: 5px 20px;
     border-radius: 10px;
-    width: 70%;
-    height: 100%;
+    /* width: 70%;
+    height: 100%; */
     margin: 10px;
+  }
+
+  .pimg{
+    width: 120px;
+    height: 61px;
   }
 }
 .theme-switch {
@@ -1117,7 +1137,7 @@ video::-webkit-media-controls-panel {
     padding: 104px 2rem 0rem 2rem;
   }
   .explore-dapp-container:nth-child(3) {
-    padding: 104px 0rem 0rem 2rem;
+    padding: 104px 2rem 0rem 2rem;
   }
   .explore-dapp-content {
     height: 100%;

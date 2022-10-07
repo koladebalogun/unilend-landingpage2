@@ -65,10 +65,11 @@ export default function Homepage() {
                 <img
                   src={binanceImg}
                   alt=""
-                  data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in"
-                  data-aos-duration="1000"
+                  className="pimg"
+                  // data-aos="fade-up"
+                  // data-aos-offset="200"
+                  // data-aos-easing="ease-in"
+                  // data-aos-duration="1000"
                 />
               </a>
             </div>
@@ -78,10 +79,11 @@ export default function Homepage() {
                 <img
                   src={uniswap}
                   alt=""
-                  data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in"
-                  data-aos-duration="1000"
+                  className="pimg"
+                  // data-aos="fade-up"
+                  // data-aos-offset="200"
+                  // data-aos-easing="ease-in"
+                  // data-aos-duration="1000"
                 />
               </a>
             </div>
