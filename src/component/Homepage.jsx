@@ -60,22 +60,33 @@ export default function Homepage() {
             <span>On Major Exchanges</span>
           </h1>
           <div className="platforms">
-            <img
-              src={binanceImg}
-              alt=""
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-easing="ease-in"
-              data-aos-duration="1000"
-            />
-            <img
-              src={uniswap}
-              alt=""
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-easing="ease-in"
-              data-aos-duration="1000"
-            />
+            <div className="platformInner">
+              <a href="https://accounts.binance.com/en/register?ref=CDPSAQU4">
+                <img
+                  src={binanceImg}
+                  alt=""
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in"
+                  data-aos-duration="1000"
+                />
+              </a>
+            </div>
+
+            <div className="platformInner">
+              <a href="https://app.uniswap.org/#/swap?inputCurrency=0x0202be363b8a4820f3f4de7faf5224ff05943ab1&outputCurrency=ETH">
+                <img
+                  src={uniswap}
+                  alt=""
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in"
+                  data-aos-duration="1000"
+                />
+              </a>
+            </div>
+
+            
           </div>
         </div>
       </section>
@@ -88,26 +99,25 @@ export default function Homepage() {
           data-aos-easing="ease-in"
           data-aos-duration="1000"
         >
-          <div className="explore-dapp-content"
-          data-aos="fade-up-right"
-          data-aos-offset="200"
-          data-aos-easing="ease-in"
-          data-aos-duration="1000">
-            <div className="explore-dapp-title"
-            >
+          <div
+            className="explore-dapp-content"
+            data-aos="fade-up-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in"
+            data-aos-duration="1000"
+          >
+            <div className="explore-dapp-title">
               Explore <br />
               <span style={{ fontWeight: "bold" }}>Omnis Dapp</span>
             </div>
 
-            <div className="explore-dapp-sub-title"
-            >
+            <div className="explore-dapp-sub-title">
               UniLend brings v2 OMNIS, a multichain permissionless protocol that
               enables Isolated Dual Asset Pool for lending and borrowing of all
               ERC20 tokens.
             </div>
 
-            <div className="explore-dapp-button"
-            >
+            <div className="explore-dapp-button">
               <a
                 href="https://unilendv2-testnet.netlify.app/"
                 style={{ color: "#0045ff", textDecoration: "none" }}
@@ -124,8 +134,8 @@ export default function Homepage() {
         </div>
 
         <div className="coin1">
-            <img src={require("../assets/hovercoins1.png")} alt="" />
-          </div>
+          <img src={require("../assets/hovercoins1.png")} alt="" />
+        </div>
 
         {/* <div className="mobile-explore-dapp-container">
           <div className="explore-dapp-content">
@@ -159,20 +169,22 @@ export default function Homepage() {
           <div className="explore-dapp-content-2">
             <img src={explore2} alt="exploreImg2" />
           </div>
-          <div className="explore-dapp-content explore-content-margin"
-          data-aos="fade-up-left"
-          data-aos-offset="200"
-          data-aos-easing="ease-in"
-          data-aos-duration="1000">
+          <div
+            className="explore-dapp-content explore-content-margin"
+            data-aos="fade-up-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in"
+            data-aos-duration="1000"
+          >
             <div className="explore-dapp-title">
-              Explore <br />
-              <span style={{ fontWeight: "bold" }}>Omnis Dapp</span>
+              BUILD with <br />
+              <span style={{ fontWeight: "bold" }}>UniLend</span>
             </div>
             <div className="explore-dapp-sub-title">
-              UniLend is a permission-less decentralized protocol that combines
-              spotUniLend is a permission-less decentralized protocol that
-              combines spot UniLend is a permission-less decentralized protocol
-              that combines spot
+              Deep dive into the core UniLend v2 OMNIS smart code to understand
+              the architecture of the protocol. Inviting Developers to BUIDL
+              upon OMNIS infrastructure & explore the possibilities of an open
+              financial institution.
             </div>
             <div
               className="explore-dapp-button"
@@ -1205,7 +1217,7 @@ export default function Homepage() {
               <span style={{ fontWeight: "bold" }}>with us</span>
             </div>
             <div className="get-involved-sub-title">
-              Join us & BUIDL the future of decentralised finance space with
+              Join us & BUILD the future of decentralised finance space with
               over 200k+ community members. Together we can achieve new
               frontiers in the Web3 ecosystem.
             </div>
@@ -1304,7 +1316,7 @@ export default function Homepage() {
                   href=" https://bit.ly/3ULxBOF"
                   style={{ color: "#202f44", textDecoration: "none" }}
                 >
-                  Lorem Ipsum is simply dummy text of the printing
+                  1 Year Journey of the UFT Token
                 </a>
               </div>
             </div>
@@ -1319,7 +1331,7 @@ export default function Homepage() {
                   href="https://bit.ly/3SzYp2y"
                   style={{ color: "#202f44", textDecoration: "none" }}
                 >
-                  Lorem Ipsum is simply dummy text of the printing
+                  Introducing UniLend V2 with isolated dual asset...
                 </a>
               </div>
             </div>
@@ -1334,7 +1346,7 @@ export default function Homepage() {
                   href="https://bit.ly/3dQOtmI"
                   style={{ color: "#202f44", textDecoration: "none" }}
                 >
-                  Lorem Ipsum is simply dummy text of the printing
+                  NFTfying The Decentralised Finance
                 </a>
               </div>
             </div>
