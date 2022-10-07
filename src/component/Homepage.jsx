@@ -64,7 +64,7 @@ export default function Homepage() {
               src={binanceImg}
               alt=""
               data-aos="fade-up"
-              data-aos-offset="28"
+              data-aos-offset="200"
               data-aos-easing="ease-in"
               data-aos-duration="1000"
             />
@@ -72,7 +72,7 @@ export default function Homepage() {
               src={uniswap}
               alt=""
               data-aos="fade-up"
-              data-aos-offset="28"
+              data-aos-offset="200"
               data-aos-easing="ease-in"
               data-aos-duration="1000"
             />

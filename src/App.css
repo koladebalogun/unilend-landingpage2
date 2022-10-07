@@ -70,7 +70,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden;
 }
 
 .platform_container h1 {
@@ -93,7 +92,7 @@ body {
 
 .platforms img {
   background-color: var(--color);
-  padding: 20px 25px;
+  padding: 10px 15px;
   border-radius: 10px;
   width: 40%;
 }
@@ -104,6 +103,7 @@ body {
     height: 100px;
     margin: 30px auto;
     margin-top: 50px;
+    margin-bottom: 100px;
   }
   .platform_container h1 span {
     line-height: 0px;
@@ -120,9 +120,9 @@ body {
 
   .platforms img {
     background-color: var(--color);
-    padding: 10px 15px;
+    padding: 20px 25px;
     border-radius: 10px;
-    width: 40%;
+    width: 37%;
     margin: 10px;
   }
 }
