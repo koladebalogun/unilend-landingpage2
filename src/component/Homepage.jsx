@@ -1295,7 +1295,7 @@ export default function Homepage() {
           <div className="blog-card-container">
             <a
               href=" https://bit.ly/3ULxBOF"
-              style={{ color: "#202f44", textDecoration: "none" }}
+              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
             >
               <div className="blog-card">
                 <img
@@ -1311,7 +1311,7 @@ export default function Homepage() {
 
             <a
               href="https://bit.ly/3SzYp2y"
-              style={{ color: "#202f44", textDecoration: "none" }}
+              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
             >
               <div className="blog-card">
                 <img
@@ -1327,7 +1327,7 @@ export default function Homepage() {
 
             <a
               href="https://bit.ly/3dQOtmI"
-              style={{ color: "#202f44", textDecoration: "none" }}
+              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
             >
               <div className="blog-card">
                 <img
