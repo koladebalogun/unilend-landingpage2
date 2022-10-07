@@ -993,6 +993,8 @@ video::-webkit-media-controls-panel {
 .explore-dapp-content-1 img {
   width: 680px;
   height: 614.87px;
+  overflow: hidden;
+
 }
 
 .coin1 img {
@@ -1005,9 +1007,9 @@ video::-webkit-media-controls-panel {
 
 .coinImg img {
   position: absolute;
-  bottom: -20%;
-  right: -2%;
-  width: 800px;
+  bottom: -40%;
+  right: -1%;
+  width: 1200px;
   z-index: -1;
 }
 
@@ -1015,6 +1017,8 @@ video::-webkit-media-controls-panel {
 .explore-dapp-content-2 img {
   width: 677px;
   height: 615px;
+  overflow: hidden;
+
 }
 
 .explore-dapp-title {
@@ -1646,19 +1650,19 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .blog-card-container {
   justify-content: space-between;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
   margin-top: 136px;
 }
 .blog-card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   flex-basis: 30%;
 }
 .blog-card-img {
-  width: 433px;
-  height: 247px;
+  width: 350px;
+  height: 180px;
   border-radius: 20px 20px 0px 0px;
 }
 .blog-card-content {

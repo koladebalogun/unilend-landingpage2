@@ -61,34 +61,35 @@ export default function Homepage() {
           </h1>
           <div className="platforms">
             <div className="platformInner">
-              <a href="https://accounts.binance.com/en/register?ref=CDPSAQU4">
+              <a href="https://accounts.binance.com/en/register?ref=CDPSAQU4"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in"
+              data-aos-duration="1000"
+              >
                 <img
                   src={binanceImg}
                   alt=""
                   className="pimg"
-                  // data-aos="fade-up"
-                  // data-aos-offset="200"
-                  // data-aos-easing="ease-in"
-                  // data-aos-duration="1000"
+                  
                 />
               </a>
             </div>
 
             <div className="platformInner">
-              <a href="https://app.uniswap.org/#/swap?inputCurrency=0x0202be363b8a4820f3f4de7faf5224ff05943ab1&outputCurrency=ETH">
+              <a href="https://app.uniswap.org/#/swap?inputCurrency=0x0202be363b8a4820f3f4de7faf5224ff05943ab1&outputCurrency=ETH"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in"
+              data-aos-duration="1000"
+              >
                 <img
                   src={uniswap}
                   alt=""
                   className="pimg"
-                  // data-aos="fade-up"
-                  // data-aos-offset="200"
-                  // data-aos-easing="ease-in"
-                  // data-aos-duration="1000"
                 />
               </a>
             </div>
-
-            
           </div>
         </div>
       </section>
@@ -188,11 +189,14 @@ export default function Homepage() {
               upon OMNIS infrastructure & explore the possibilities of an open
               financial institution.
             </div>
-            <div
-              className="explore-dapp-button"
-              style={{ color: "#0045ff", textDecoration: "none" }}
-            >
-              Launch Dapp
+            <div className="explore-dapp-button">
+              <a
+                href="https://unilendv2-testnet.netlify.app/"
+                style={{ color: "#0045ff", textDecoration: "none" }}
+              >
+                {" "}
+                Launch Dapp
+              </a>
             </div>
           </div>
         </div>
@@ -217,141 +221,123 @@ export default function Homepage() {
 
         <div className="featuresContainer">
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/featureImg1.png")} alt="" />
+            <a
+              href="https://bit.ly/3CdW3RA"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/featureImg1.png")} alt="" />
+                </div>
+                <h5>Permissionless Listing</h5>
+                <p>
+                  Any ERC20 token will be able to list without any entity
+                  controlling the listing process, making UniLend’s lending and
+                  borrowing functionality accessible to every token.
+                </p>
+                <h4> HOW IT WORKS</h4>
               </div>
-              <h5>Permissionless Listing</h5>
-              <p>
-                Any ERC20 token will be able to list without any entity
-                controlling the listing process, making UniLend’s lending and
-                borrowing functionality accessible to every token.
-              </p>
-              <h4>
-                {" "}
-                <a
-                  href="https://bit.ly/3CdW3RA"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  {" "}
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
 
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/featureImg2.png")} alt="" />
+            <a
+              href="https://bit.ly/3CdW3RA"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/featureImg2.png")} alt="" />
+                </div>
+                <h5>Flash Loans</h5>
+                <p>
+                  Permissionless Flash Loans enables users to borrow any sum of
+                  any token without any collateral to utilize arbitrage,
+                  collateral swap and self-liquidation opportunities.
+                </p>
+                <h4> HOW IT WORKS</h4>
               </div>
-              <h5>Flash Loans</h5>
-              <p>
-                Permissionless Flash Loans enables users to borrow any sum of
-                any token without any collateral to utilize arbitrage,
-                collateral swap and self-liquidation opportunities.
-              </p>
-              <h4>
-                <a
-                  href="https://bit.ly/3CdW3RA"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  {" "}
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
 
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/dual.png")} alt="" />
+            <a
+              href="https://bit.ly/3rdW81n"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/dual.png")} alt="" />
+                </div>
+                <h5>Dual Asset Pool</h5>
+                <p>
+                  Users can create a dual asset pool for permissionless Lending
+                  & Borrowing for any pair of assets and leverage a new wide
+                  range of DeFi strategies.
+                </p>
+                <h4>HOW IT WORKS</h4>
               </div>
-              <h5>Dual Asset Pool</h5>
-              <p>
-                Users can create a dual asset pool for permissionless Lending &
-                Borrowing for any pair of assets and leverage a new wide range
-                of DeFi strategies.
-              </p>
-              <h4>
-                <a
-                  href="https://bit.ly/3rdW81n"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
 
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/flexible.png")} alt="" />
+            <a
+              href="https://bit.ly/3CdW3RA"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/flexible.png")} alt="" />
+                </div>
+                <h5>Flexible Lending</h5>
+                <p>
+                  Providing flexibility to lenders to choose the assets against
+                  which they wish to lend by selecting corresponding pools.
+                </p>
+                <h4> HOW IT WORKS</h4>
               </div>
-              <h5>Flexible Lending</h5>
-              <p>
-                Providing flexibility to lenders to choose the assets against
-                which they wish to lend by selecting corresponding pools.
-              </p>
-              <h4>
-                <a
-                  href="https://bit.ly/3CdW3RA"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  {" "}
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
 
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/chain.png")} alt="" />
+            <a
+              href="https://bit.ly/3CdW3RA"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/chain.png")} alt="" />
+                </div>
+                <h5>On Chain Price</h5>
+                <p>
+                  Supporting price feeds from various sources including
+                  Chainlink, Band Protocol & Uniswap V3 TWAP oracle to make the
+                  v2 more flexible to adapt to changing markets and innovations.
+                </p>
+                <h4> HOW IT WORKS</h4>
               </div>
-              <h5>On Chain Price</h5>
-              <p>
-                Supporting price feeds from various sources including Chainlink,
-                Band Protocol & Uniswap V3 TWAP oracle to make the v2 more
-                flexible to adapt to changing markets and innovations.
-              </p>
-              <h4>
-                <a
-                  href="https://bit.ly/3CdW3RA"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  {" "}
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
 
           <div className="featuresCard">
-            <div className="featuresTextContainer">
-              <div className="imgSection">
-                <img src={require("../assets/NFTs.png")} alt="" />
+            <a
+              href="https://bit.ly/3UEyKaZ"
+              style={{ color: "#0045ff", textDecoration: "none" }}
+            >
+              <div className="featuresTextContainer">
+                <div className="imgSection">
+                  <img src={require("../assets/NFTs.png")} alt="" />
+                </div>
+                <h5>Non-Fungible Tokenisation</h5>
+                <p>
+                  Implementing NFTs as certificates for equities. NFT will
+                  represent as lender’s right to withdraw funds from the pool.
+                  These NFTs will determine the user’s liquidity position in the
+                  pool.
+                </p>
+                <h4> HOW IT WORKS</h4>
               </div>
-              <h5>Non-Fungible Tokenisation</h5>
-              <p>
-                Implementing NFTs as certificates for equities. NFT will
-                represent as lender’s right to withdraw funds from the pool.
-                These NFTs will determine the user’s liquidity position in the
-                pool.
-              </p>
-              <h4>
-                <a
-                  href="https://bit.ly/3UEyKaZ"
-                  style={{ color: "#0045ff", textDecoration: "none" }}
-                >
-                  {" "}
-                  HOW IT WORKS
-                </a>
-              </h4>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -1307,51 +1293,53 @@ export default function Homepage() {
             Check the latest announcements for the <br /> UniLend Community.
           </div>
           <div className="blog-card-container">
-            <div className="blog-card">
-              <img
-                className="blog-card-img"
-                src={require("../assets/1YearAnniversary.png")}
-                alt="card img 1"
-              />
-              <div className="blog-card-content">
-                <a
-                  href=" https://bit.ly/3ULxBOF"
-                  style={{ color: "#202f44", textDecoration: "none" }}
-                >
+            <a
+              href=" https://bit.ly/3ULxBOF"
+              style={{ color: "#202f44", textDecoration: "none" }}
+            >
+              <div className="blog-card">
+                <img
+                  className="blog-card-img"
+                  src={require("../assets/1YearAnniversary.png")}
+                  alt="card img 1"
+                />
+                <div className="blog-card-content">
                   1 Year Journey of the UFT Token
-                </a>
+                </div>
               </div>
-            </div>
-            <div className="blog-card">
-              <img
-                className="blog-card-img img2"
-                src={require("../assets/CoverforBlog2.png")}
-                alt="card img 2"
-              />
-              <div className="blog-card-content">
-                <a
-                  href="https://bit.ly/3SzYp2y"
-                  style={{ color: "#202f44", textDecoration: "none" }}
-                >
+            </a>
+
+            <a
+              href="https://bit.ly/3SzYp2y"
+              style={{ color: "#202f44", textDecoration: "none" }}
+            >
+              <div className="blog-card">
+                <img
+                  className="blog-card-img img2"
+                  src={require("../assets/CoverforBlog2.png")}
+                  alt="card img 2"
+                />
+                <div className="blog-card-content">
                   Introducing UniLend V2 with isolated dual asset...
-                </a>
+                </div>
               </div>
-            </div>
-            <div className="blog-card">
-              <img
-                className="blog-card-img"
-                src={require("../assets/NonFungibleTokenization.png")}
-                alt="card img 3"
-              />
-              <div className="blog-card-content">
-                <a
-                  href="https://bit.ly/3dQOtmI"
-                  style={{ color: "#202f44", textDecoration: "none" }}
-                >
+            </a>
+
+            <a
+              href="https://bit.ly/3dQOtmI"
+              style={{ color: "#202f44", textDecoration: "none" }}
+            >
+              <div className="blog-card">
+                <img
+                  className="blog-card-img"
+                  src={require("../assets/NonFungibleTokenization.png")}
+                  alt="card img 3"
+                />
+                <div className="blog-card-content">
                   NFTfying The Decentralised Finance
-                </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="blog-button">
@@ -1552,52 +1540,65 @@ export default function Homepage() {
             <span className="container-title-sub">Community</span>
           </div>
           <div className="our-community-card-container">
-            <div className="our-community-card">
-              <a href="https://twitter.com/UniLend_Finance">
+            <a
+              href="https://twitter.com/UniLend_Finance"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="our-community-card">
                 <img
                   className="our-community-card-img"
                   src={require("../assets/Vector1.svg").default}
                   alt="vector img 1"
                   id="communityLogo1"
                 />
-              </a>
-              <div className="our-community-title">Twitter</div>
-            </div>
-            <div className="our-community-card">
-              <a href="https://www.instagram.com/unilendfinance/">
+                <div className="our-community-title">Twitter</div>
+              </div>
+            </a>
+
+            <a
+              href="https://www.instagram.com/unilendfinance/"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="our-community-card">
                 <img
                   className="our-community-card-img"
                   src={require("../assets/Vector2.svg").default}
                   alt="vector img 2"
                   id="communityLogo2"
                 />
-              </a>
-              <div className="our-community-title">Instagram</div>
-            </div>
+                <div className="our-community-title">Instagram</div>
+              </div>
+            </a>
 
-            <div className="our-community-card">
-              <a href="https://www.reddit.com/r/UniLend/">
+            <a
+              href="https://www.reddit.com/r/UniLend/"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="our-community-card">
                 <img
                   className="our-community-card-img"
                   src={require("../assets/Vector3.svg").default}
                   alt="vector img 3"
                   id="communityLogo3"
                 />
-              </a>
-              <div className="our-community-title">Reddit</div>
-            </div>
+                <div className="our-community-title">Reddit</div>
+              </div>
+            </a>
 
-            <div className="our-community-card">
-              <a href="https://t.me/UniLendFinance">
+            <a
+              href="https://t.me/UniLendFinance"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="our-community-card">
                 <img
                   className="our-community-card-img"
                   src={require("../assets/Vector4.svg").default}
                   alt="vector img 4"
                   id="communityLogo4"
                 />
-              </a>
-              <div className="our-community-title">Telegram</div>
-            </div>
+                <div className="our-community-title">Telegram</div>
+              </div>
+            </a>
           </div>
         </div>
 
