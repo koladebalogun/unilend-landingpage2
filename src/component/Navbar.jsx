@@ -17,7 +17,7 @@ export default function Navbar() {
             <img src={logo} alt="mainlogo" className="mainLogo" id="mainlogo" />
           </div>
           <div className="header">
-            <li onClick={() => setDropDown(!dropDown)}>
+            <li onClick={() => setDropDown(!dropDown)} className="dev">
               Developers 
               <RiArrowDropDownLine style={{fontSize:'30px'}}/>
             </li>

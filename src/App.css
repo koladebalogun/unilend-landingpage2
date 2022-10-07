@@ -336,6 +336,10 @@ video::-webkit-media-controls-panel {
   display: flex;
 }
 
+.dev{
+  position: relative;
+}
+
 .nav-dropDown {
   position: absolute;
   width: 150px;
@@ -343,7 +347,7 @@ video::-webkit-media-controls-panel {
   background: #e2e7fe;
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.08), 2px 4px 3px rgba(0, 0, 0, 0.11);
   border-radius: 9px;
-  left: 19%;
+  left: 10%;
   top: 40px;
   padding: 0;
   text-align: justify;
@@ -1667,7 +1671,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 .blog-card-img {
   width: 100%;
-  height: 235px;
+  height: 247px;
   border-radius: 20px 20px 0px 0px;
 }
 .blog-card-content {
