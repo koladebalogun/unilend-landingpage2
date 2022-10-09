@@ -61,33 +61,22 @@ export default function Homepage() {
           </h1>
           <div className="platforms">
             <div className="platformInner">
-              <a href="https://accounts.binance.com/en/register?ref=CDPSAQU4"
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-easing="ease-in"
-              data-aos-duration="1000"
+              <a
+                href="https://accounts.binance.com/en/register?ref=CDPSAQU4"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <img
-                  src={binanceImg}
-                  alt=""
-                  className="pimg"
-                  
-                />
+                <img src={binanceImg} alt="" className="pimg" />
               </a>
             </div>
 
             <div className="platformInner">
-              <a href="https://app.uniswap.org/#/swap?inputCurrency=0x0202be363b8a4820f3f4de7faf5224ff05943ab1&outputCurrency=ETH"
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-easing="ease-in"
-              data-aos-duration="1000"
+              <a
+                href="https://app.uniswap.org/#/swap?inputCurrency=0x0202be363b8a4820f3f4de7faf5224ff05943ab1&outputCurrency=ETH"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <img
-                  src={uniswap}
-                  alt=""
-                  className="pimg"
-                />
+                <img src={uniswap} alt="" className="pimg" />
               </a>
             </div>
           </div>
@@ -123,6 +112,8 @@ export default function Homepage() {
             <div className="explore-dapp-button">
               <a
                 href="https://unilendv2-testnet.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#0045ff", textDecoration: "none" }}
               >
                 {" "}
@@ -192,10 +183,12 @@ export default function Homepage() {
             <div className="explore-dapp-button">
               <a
                 href="https://unilendv2-testnet.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#0045ff", textDecoration: "none" }}
               >
                 {" "}
-                Launch Dapp
+                Explore our code
               </a>
             </div>
           </div>
@@ -223,6 +216,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3CdW3RA"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -243,6 +238,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3CdW3RA"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -263,6 +260,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3rdW81n"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -283,6 +282,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3CdW3RA"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -302,6 +303,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3CdW3RA"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -322,6 +325,8 @@ export default function Homepage() {
           <div className="featuresCard">
             <a
               href="https://bit.ly/3UEyKaZ"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#0045ff", textDecoration: "none" }}
             >
               <div className="featuresTextContainer">
@@ -1212,6 +1217,8 @@ export default function Homepage() {
             <button className="get-involved-button">
               <a
                 href="https://bit.ly/3a4EIir"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#fff", textDecoration: "none" }}
               >
                 Register Here
@@ -1295,7 +1302,13 @@ export default function Homepage() {
           <div className="blog-card-container">
             <a
               href=" https://bit.ly/3ULxBOF"
-              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#202f44",
+                textDecoration: "none",
+                width: "100%",
+              }}
             >
               <div className="blog-card">
                 <img
@@ -1311,7 +1324,13 @@ export default function Homepage() {
 
             <a
               href="https://bit.ly/3SzYp2y"
-              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#202f44",
+                textDecoration: "none",
+                width: "100%",
+              }}
             >
               <div className="blog-card">
                 <img
@@ -1327,7 +1346,13 @@ export default function Homepage() {
 
             <a
               href="https://bit.ly/3dQOtmI"
-              style={{ color: "#202f44", textDecoration: "none", width:"100%" }}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#202f44",
+                textDecoration: "none",
+                width: "100%",
+              }}
             >
               <div className="blog-card">
                 <img
@@ -1349,6 +1374,8 @@ export default function Homepage() {
             >
               <a
                 href="https://unilend.medium.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#fff", textDecoration: "none" }}
               >
                 Read More
@@ -1381,6 +1408,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3E0AdlO"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Yahoo
@@ -1397,6 +1426,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3SDHvQB"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Bitcoin.com
@@ -1413,6 +1444,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3xV3vOT"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     CryptoNewz
@@ -1429,6 +1462,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3SEOby1"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     CryptoBriefing
@@ -1445,6 +1480,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3re6oXv"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Amb Crypto
@@ -1462,6 +1499,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3flkDHj"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Coindesk
@@ -1478,6 +1517,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3rfBJZU"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Nasdaq
@@ -1494,6 +1535,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3LT5wRM"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     CryptoDaily
@@ -1511,6 +1554,8 @@ export default function Homepage() {
                 <div className="write-aboutus-card-crypto">
                   <a
                     href="https://bit.ly/3xZ53aI"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "#0045ff", textDecoration: "none" }}
                   >
                     Cointelegraph
@@ -1542,6 +1587,8 @@ export default function Homepage() {
           <div className="our-community-card-container">
             <a
               href="https://twitter.com/UniLend_Finance"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className="our-community-card">
@@ -1557,6 +1604,8 @@ export default function Homepage() {
 
             <a
               href="https://www.instagram.com/unilendfinance/"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className="our-community-card">
@@ -1572,6 +1621,8 @@ export default function Homepage() {
 
             <a
               href="https://www.reddit.com/r/UniLend/"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className="our-community-card">
@@ -1587,6 +1638,8 @@ export default function Homepage() {
 
             <a
               href="https://t.me/UniLendFinance"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className="our-community-card">
@@ -1653,6 +1706,8 @@ export default function Homepage() {
               <li>
                 <a
                   href="https://unilend.gitbook.io/unilend-finance/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#202f44cc", textDecoration: "none" }}
                 >
                   Gitbook
@@ -1662,6 +1717,8 @@ export default function Homepage() {
               <li>
                 <a
                   href="https://www.youtube.com/channel/UCggNiVE5EGWGHh1YwIUW7Ug"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#202f44cc", textDecoration: "none" }}
                 >
                   Tutorial
@@ -1726,7 +1783,11 @@ export default function Homepage() {
               </li>
 
               <div className="logo-content">
-                <a href="https://t.me/UniLendFinance">
+                <a
+                  href="https://t.me/UniLendFinance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="logo-content-img"
                     src={require("../assets/Vector4.png")}
@@ -1735,7 +1796,11 @@ export default function Homepage() {
                   />
                 </a>
 
-                <a href="https://twitter.com/UniLend_Finance">
+                <a
+                  href="https://twitter.com/UniLend_Finance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="logo-content-img"
                     src={require("../assets/Vector1.png")}
@@ -1744,7 +1809,11 @@ export default function Homepage() {
                   />
                 </a>
 
-                <a href="https://www.instagram.com/unilendfinance/">
+                <a
+                  href="https://www.instagram.com/unilendfinance/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="logo-content-img"
                     src={require("../assets/Vector2.png")}
@@ -1760,7 +1829,11 @@ export default function Homepage() {
                   id="Vector5"
                 />
 
-                <a href="https://www.reddit.com/r/UniLend/">
+                <a
+                  href="https://www.reddit.com/r/UniLend/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="logo-content-img"
                     src={require("../assets/Vector3.png")}
@@ -1769,7 +1842,11 @@ export default function Homepage() {
                   />
                 </a>
 
-                <a href="https://unilend.medium.com/">
+                <a
+                  href="https://unilend.medium.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="logo-content-img"
                     src={require("../assets/Vector6.png")}
