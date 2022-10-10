@@ -1707,8 +1707,6 @@ export default function Homepage() {
               >
                 <li>Career</li>
               </a>
-
-              <li>FAQ</li>
             </ul>
 
             <ul>
@@ -1744,7 +1742,6 @@ export default function Homepage() {
                   Gitbook
                 </a>
               </li>
-              <li>GitHub</li>
               <li>
                 <a
                   href="https://www.youtube.com/channel/UCggNiVE5EGWGHh1YwIUW7Ug"
