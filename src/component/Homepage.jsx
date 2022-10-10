@@ -4,12 +4,14 @@ import bannermobile from "../assets/bannermobile.png";
 import ethLogo from "../assets/ethLogo.png";
 import polygonLogo from "../assets/PolygonLogo.png";
 import binance from "../assets/BInanceLogo.png";
-import explore from "../assets/exploreImg5.png";
+import explore from "../assets/Lendingui.svg";
 import explore2 from "../assets/exploreImg4.png";
 import binanceImg from "../assets/binance.svg";
 import uniswap from "../assets/uniswap.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 // import { TestimonyCarousel } from "../utils/Carousel";
 
 export default function Homepage() {
@@ -53,7 +55,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <h1>
             Trade UFT Token <br />
@@ -89,14 +91,14 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div
             className="explore-dapp-content"
             data-aos="fade-up-right"
             data-aos-offset="200"
             data-aos-easing="ease-in"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             <div className="explore-dapp-title">
               Explore <br />
@@ -158,7 +160,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="explore-dapp-content-2">
             <img src={explore2} alt="exploreImg2" />
@@ -168,7 +170,7 @@ export default function Homepage() {
             data-aos="fade-up-left"
             data-aos-offset="200"
             data-aos-easing="ease-in"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             <div className="explore-dapp-title">
               BUILD with <br />
@@ -204,7 +206,7 @@ export default function Homepage() {
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-easing="ease-in"
-        data-aos-duration="1000"
+        data-aos-duration="600"
       >
         <div className="container-title">
           Our
@@ -353,7 +355,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="container-title">
             Our <br />
@@ -1203,7 +1205,7 @@ export default function Homepage() {
             data-aos="fade-up-right"
             data-aos-offset="200"
             data-aos-easing="ease-in"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             <div className="get-involved-title">
               Get involved <br />
@@ -1231,7 +1233,7 @@ export default function Homepage() {
             data-aos="fade-up-left"
             data-aos-offset="200"
             data-aos-easing="ease-in"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             <div>
               <div className="get-involved-content-title">For Projects</div>
@@ -1290,7 +1292,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="container-title">
             Blog <br />
@@ -1391,7 +1393,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="container-title">
             They Write <br />
@@ -1577,7 +1579,7 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="container-title">
             Join our
@@ -1685,20 +1687,49 @@ export default function Homepage() {
           data-aos="fade-up"
           data-aos-offset="200"
           data-aos-easing="ease-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="footer-container">
             <ul className="footer-first-child">
               <li className="footer-title">GENERAL</li>
-              <li>About Us</li>
-              <li>Career</li>
+              <AnchorLink
+                href="#explore-dapp-section"
+                style={{ textDecoration: "none" }}
+              >
+                <li>About Us</li>
+              </AnchorLink>
+
+              <a
+                href="https://twitter.com/UniLend_Finance"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <li>Career</li>
+              </a>
+
               <li>FAQ</li>
             </ul>
 
             <ul>
               <li className="footer-title">COMMUNITY</li>
-              <li>Legions</li>
-              <li>Grants</li>
+              <a
+                href="https://unilend.medium.com/introducing-the-unilend-legion-ambassador-program-accelerating-the-evolution-of-defi-dbed1a33ba97"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <li>Legions</li>
+              </a>
+
+              <a
+                href="https://unilend.gitbook.io/unilend-finance/v/unilend-v1/community/unilend-grants"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <li>Grants</li>
+              </a>
             </ul>
 
             <ul>
@@ -1822,12 +1853,18 @@ export default function Homepage() {
                   />
                 </a>
 
-                <img
-                  className="logo-content-img"
-                  src={require("../assets/Vector5.png")}
-                  alt=""
-                  id="Vector5"
-                />
+                <a
+                  href="https://www.linkedin.com/company/unilend-finance/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="logo-content-img"
+                    src={require("../assets/Vector5.png")}
+                    alt=""
+                    id="Vector5"
+                  />
+                </a>
 
                 <a
                   href="https://www.reddit.com/r/UniLend/"
