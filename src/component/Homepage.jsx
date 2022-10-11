@@ -53,7 +53,7 @@ export default function Homepage() {
         <div
           className="platform_container"
           data-aos="fade-up"
-          data-aos-offset="200"
+          data-aos-offset="30"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -1700,7 +1700,7 @@ export default function Homepage() {
               </AnchorLink>
 
               <a
-                href="https://twitter.com/UniLend_Finance"
+                href="https://angel.co/company/unilend-finance-1/jobs"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
