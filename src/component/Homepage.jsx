@@ -19,7 +19,7 @@ export default function Homepage() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div>
+    <div className="wrapper">
       <div class="headerTextContainer">
         <p>
           <span class="colorText">Making Every</span>&nbsp;Asset Productive
@@ -53,7 +53,6 @@ export default function Homepage() {
         <div
           className="platform_container"
           data-aos="fade-up"
-          data-aos-offset="30"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -89,14 +88,12 @@ export default function Homepage() {
         <div
           className="explore-dapp-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
           <div
             className="explore-dapp-content"
             data-aos="fade-up-right"
-            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="600"
           >
@@ -133,32 +130,9 @@ export default function Homepage() {
           <img src={require("../assets/hovercoins1.png")} alt="" />
         </div>
 
-        {/* <div className="mobile-explore-dapp-container">
-          <div className="explore-dapp-content">
-            <div className="explore-dapp-title">
-              Build <br />
-              <span style={{ fontWeight: "bold" }}>With UniLend </span>
-            </div>
-
-            <div className="explore-dapp-sub-title">
-              Deep dive into the core UniLend v2 OMNIS smart code to understand
-              the architecture of the protocol. Inviting Developers to BUIDL
-              upon OMNIS infrastructure & explore the possibilities of an open
-              financial institution.
-            </div>
-
-            <div className="explore-dapp-button">Launch Dapp</div>
-          </div>
-
-          <div className="explore-dapp-content-1">
-            <img src={explore} alt="exploreImg1" id="exploreImg" />
-          </div>
-        </div> */}
-
         <div
           className="explore-dapp-container container2"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -168,7 +142,6 @@ export default function Homepage() {
           <div
             className="explore-dapp-content explore-content-margin"
             data-aos="fade-up-left"
-            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="600"
           >
@@ -204,7 +177,6 @@ export default function Homepage() {
       <div
         className="common-container"
         data-aos="fade-up"
-        data-aos-offset="200"
         data-aos-easing="ease-in"
         data-aos-duration="600"
       >
@@ -353,7 +325,6 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -1203,7 +1174,6 @@ export default function Homepage() {
           <div
             className="get-involved-content"
             data-aos="fade-up-right"
-            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="600"
           >
@@ -1231,7 +1201,6 @@ export default function Homepage() {
           <div
             className="get-involved-content-2"
             data-aos="fade-up-left"
-            data-aos-offset="200"
             data-aos-easing="ease-in"
             data-aos-duration="600"
           >
@@ -1263,34 +1232,12 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* <section className="blogMobile">
-        <div className="blog-mobile-container">
-          <div className="container-title">
-            Blog <span className="container-title-sub">& News</span>
-          </div>
-
-          <div className="blog-card-container">
-            <div className="blog-card">
-              <img
-                className="blog-card-img"
-                src={require("../assets/1YearAnniversary.png")}
-                alt="card img 1"
-              />
-              <div className="blog-card-content">
-                <a href="https://unilend.medium.com/">
-                  Lorem Ipsum is simply dummy text of the printing
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      
 
       <section id="block-news-section">
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -1391,7 +1338,6 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -1577,7 +1523,6 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >
@@ -1685,7 +1630,6 @@ export default function Homepage() {
         <div
           className="common-container"
           data-aos="fade-up"
-          data-aos-offset="200"
           data-aos-easing="ease-in"
           data-aos-duration="600"
         >

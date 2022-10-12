@@ -62,6 +62,12 @@ body {
   color: var(--app-color) !important;
 }
 
+
+.wrapper{
+  margin: auto;
+  overflow: hidden;
+}
+
 .read-more {
   margin: 30px 0px;
 }
@@ -74,10 +80,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.platform_container::-webkit-scrollbar {
-  display: none;
 }
 
 .platform_container h1 {
@@ -982,10 +984,6 @@ video::-webkit-media-controls-panel {
   /* align-items: center; */
 }
 
-.explore-dapp-container::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
 
 .explore-dapp-content {
   display: flex;
@@ -996,14 +994,11 @@ video::-webkit-media-controls-panel {
   overflow: hidden;
 }
 
-.explore-dapp-content::-webkit-scrollbar {
-  display: none;
-}
+
 
 .explore-dapp-content-1 img {
   width: 680px;
   height: 614.87px;
-  overflow: hidden;
 }
 
 .coin1 img {
@@ -1025,7 +1020,6 @@ video::-webkit-media-controls-panel {
 .explore-dapp-content-2 img {
   width: 677px;
   height: 615px;
-  overflow: hidden;
 }
 
 .explore-dapp-title {
@@ -1320,10 +1314,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   padding: 250px 10rem 0rem 10rem;
   height: 100%;
   width: 100%;
-}
-
-.common-container::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
 }
 
 .container-title {
@@ -1568,6 +1559,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
+  overflow: hidden;
 }
 .get-involved-content-2 {
   display: flex;
@@ -1575,6 +1567,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   flex-direction: column;
   gap: 3rem;
   margin: -5px 0 0 0;
+  overflow: hidden;
 }
 .get-involved-title {
   font-weight: 600;
