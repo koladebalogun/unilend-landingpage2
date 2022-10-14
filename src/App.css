@@ -101,18 +101,12 @@ body {
   column-gap: 184px;
 }
 
-/* .platforms a {
-  padding: 10px 15px;
-  border-radius: 10px;
-  width: 40%;
-} */
 
 .platformInner {
   background-color: var(--color);
   padding: 15px 25px;
   border-radius: 10px;
-  /* width: 10%; */
-  /* height: 124px; */
+ 
 }
 
 .pimg {

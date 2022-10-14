@@ -12,8 +12,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-// import { TestimonyCarousel } from "../utils/Carousel";
-
 export default function Homepage() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
