@@ -4,7 +4,7 @@ import bannermobile from "../assets/bannermobile.png";
 import ethLogo from "../assets/ethLogo.png";
 import polygonLogo from "../assets/PolygonLogo.png";
 import binance from "../assets/BInanceLogo.png";
-import explore from "../assets/Lendingui.svg";
+import explore from "../assets/LendingSS.svg";
 import explore2 from "../assets/exploreImg4.png";
 import binanceImg from "../assets/binance.svg";
 import uniswap from "../assets/uniswap.svg";
