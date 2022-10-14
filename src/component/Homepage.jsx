@@ -6,7 +6,7 @@ import polygonLogo from "../assets/PolygonLogo.png";
 import binance from "../assets/BInanceLogo.png";
 import explore from "../assets/Lendingui.svg";
 import explore2 from "../assets/exploreImg4.png";
-import binanceImg from "../assets/binance.svg";
+import binanceImg from "../assets/bin.svg";
 import uniswap from "../assets/uniswap.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -77,7 +77,7 @@ export default function Homepage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={uniswap} alt="" className="pimg" />
+                <img src={uniswap} alt="" className="pimg uniswap" />
               </a>
             </div>
           </div>
@@ -338,7 +338,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/ankr.svg").default}
+                  src={require("../assets/3comms.svg").default}
                   alt="Group img 1"
                   id="ecoImg1"
                 />
@@ -346,7 +346,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/base.svg").default}
+                  src={require("../assets/ACY.svg").default}
                   alt="Group img 2"
                   id="ecoImg2"
                 />
@@ -354,7 +354,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/bluzelle.svg").default}
+                  src={require("../assets/Algo block.svg").default}
                   alt="Group img 3"
                   id="ecoImg3"
                 />
@@ -362,7 +362,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/BZX.svg").default}
+                  src={require("../assets/Alpha capital.svg").default}
                   alt="Group img 4"
                   id="ecoImg4"
                 />
@@ -387,7 +387,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/crypro locally.svg").default}
+                  src={require("../assets/ankr.svg").default}
                   alt="Group img 7"
                   id="ecoImg7"
                 />
@@ -395,7 +395,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/cyberfi.svg").default}
+                  src={require("../assets/Ascendex.svg").default}
                   alt="Group img 8"
                   id="ecoImg8"
                 />
@@ -403,7 +403,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/DFYN.svg").default}
+                  src={require("../assets/balancer.svg").default}
                   alt="Group img 9"
                   id="ecoImg9"
                 />
@@ -411,7 +411,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/division.svg").default}
+                  src={require("../assets/Bilaxy.svg").default}
                   alt="Group img 10"
                   id="ecoImg10"
                 />
@@ -419,7 +419,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/EPNS.svg").default}
+                  src={require("../assets/Binance.svg").default}
                   alt="Group img 11"
                   id="ecoImg11"
                 />
@@ -427,7 +427,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/fantom.svg").default}
+                  src={require("../assets/Bitkeep wallet.svg").default}
                   alt="Group img 12"
                   id="ecoImg12"
                 />
@@ -435,7 +435,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/genesis.svg").default}
+                  src={require("../assets/Bitthumb.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -443,76 +443,76 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/injective protocol.svg").default}
+                  src={require("../assets/blockbank.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg14"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Kucoin.svg").default}
+                  src={require("../assets/bluzelle.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg15"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/mirror.svg").default}
+                  src={require("../assets/chainlink.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg16"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/MXC.svg").default}
+                  src={require("../assets/coinfantacy.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg17"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/nord.svg").default}
+                  src={require("../assets/Conbase wallet.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg18"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/oddz.svg").default}
+                  src={require("../assets/covalent.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg19"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/paraswap.svg").default}
+                  src={require("../assets/cover compared.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg20"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Playcent.svg").default}
+                  src={require("../assets/Cruize Finance.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg21"
                 />
               </div>
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/polka bridhge.svg").default}
+                  src={require("../assets/cryption.svg").default}
                   alt="Group img 13"
-                  id="ecoImg13"
+                  id="ecoImg22"
                 />
               </div>
-              <div className="our-ecosystem-card">
+              {/* <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
                   src={require("../assets/Polugon.svg").default}
@@ -607,7 +607,7 @@ export default function Homepage() {
                   alt="Group img 13"
                   id="ecoImg13"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -616,7 +616,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/ankr.svg").default}
+                  src={require("../assets/cyberfi.svg").default}
                   alt="Group img 1"
                   id="ecoImg1"
                 />
@@ -624,7 +624,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/base.svg").default}
+                  src={require("../assets/Dappradar.svg").default}
                   alt="Group img 2"
                   id="ecoImg2"
                 />
@@ -632,7 +632,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/bluzelle.svg").default}
+                  src={require("../assets/despace.svg").default}
                   alt="Group img 3"
                   id="ecoImg3"
                 />
@@ -640,7 +640,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/BZX.svg").default}
+                  src={require("../assets/DFYN.svg").default}
                   alt="Group img 4"
                   id="ecoImg4"
                 />
@@ -648,7 +648,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Coin 98.svg").default}
+                  src={require("../assets/e money.svg").default}
                   alt="Group img 5"
                   id="ecoImg5"
                 />
@@ -656,7 +656,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/coin dcx.svg").default}
+                  src={require("../assets/fantom.svg").default}
                   alt="Group img 6"
                   id="ecoImg6"
                 />
@@ -665,7 +665,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/crypro locally.svg").default}
+                  src={require("../assets/feb wallet.svg").default}
                   alt="Group img 7"
                   id="ecoImg7"
                 />
@@ -673,7 +673,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/cyberfi.svg").default}
+                  src={require("../assets/Fprward.svg").default}
                   alt="Group img 8"
                   id="ecoImg8"
                 />
@@ -681,7 +681,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/DFYN.svg").default}
+                  src={require("../assets/gate.svg").default}
                   alt="Group img 9"
                   id="ecoImg9"
                 />
@@ -689,7 +689,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/division.svg").default}
+                  src={require("../assets/genesis.svg").default}
                   alt="Group img 10"
                   id="ecoImg10"
                 />
@@ -697,7 +697,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/EPNS.svg").default}
+                  src={require("../assets/hotbit.svg").default}
                   alt="Group img 11"
                   id="ecoImg11"
                 />
@@ -705,7 +705,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/fantom.svg").default}
+                  src={require("../assets/ime wallet.svg").default}
                   alt="Group img 12"
                   id="ecoImg12"
                 />
@@ -713,7 +713,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/genesis.svg").default}
+                  src={require("../assets/Impossible finance.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -729,7 +729,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Kucoin.svg").default}
+                  src={require("../assets/Knit finance.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -737,7 +737,23 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/mirror.svg").default}
+                  src={require("../assets/latoken.svg").default}
+                  alt="Group img 13"
+                  id="ecoImg13"
+                />
+              </div>
+              <div className="our-ecosystem-card">
+                <img
+                  className="our-ecosystem-card-img"
+                  src={require("../assets/life crypto.svg").default}
+                  alt="Group img 13"
+                  id="ecoImg13"
+                />
+              </div>
+              <div className="our-ecosystem-card">
+                <img
+                  className="our-ecosystem-card-img"
+                  src={require("../assets/Math wallet.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -769,28 +785,12 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/paraswap.svg").default}
-                  alt="Group img 13"
-                  id="ecoImg13"
-                />
-              </div>
-              <div className="our-ecosystem-card">
-                <img
-                  className="our-ecosystem-card-img"
                   src={require("../assets/Playcent.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
               </div>
-              <div className="our-ecosystem-card">
-                <img
-                  className="our-ecosystem-card-img"
-                  src={require("../assets/polka bridhge.svg").default}
-                  alt="Group img 13"
-                  id="ecoImg13"
-                />
-              </div>
-              <div className="our-ecosystem-card">
+              {/* <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
                   src={require("../assets/Polugon.svg").default}
@@ -885,7 +885,7 @@ export default function Homepage() {
                   alt="Group img 13"
                   id="ecoImg13"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -894,7 +894,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/ankr.svg").default}
+                  src={require("../assets/poolz.svg").default}
                   alt="Group img 1"
                   id="ecoImg1"
                 />
@@ -902,7 +902,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/base.svg").default}
+                  src={require("../assets/probit.svg").default}
                   alt="Group img 2"
                   id="ecoImg2"
                 />
@@ -910,7 +910,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/bluzelle.svg").default}
+                  src={require("../assets/propel.svg").default}
                   alt="Group img 3"
                   id="ecoImg3"
                 />
@@ -918,7 +918,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/BZX.svg").default}
+                  src={require("../assets/Quickswap.svg").default}
                   alt="Group img 4"
                   id="ecoImg4"
                 />
@@ -926,7 +926,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Coin 98.svg").default}
+                  src={require("../assets/Ramp.svg").default}
                   alt="Group img 5"
                   id="ecoImg5"
                 />
@@ -934,7 +934,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/coin dcx.svg").default}
+                  src={require("../assets/redkite.svg").default}
                   alt="Group img 6"
                   id="ecoImg6"
                 />
@@ -943,7 +943,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/crypro locally.svg").default}
+                  src={require("../assets/redstone.svg").default}
                   alt="Group img 7"
                   id="ecoImg7"
                 />
@@ -951,7 +951,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/cyberfi.svg").default}
+                  src={require("../assets/risk harbor.svg").default}
                   alt="Group img 8"
                   id="ecoImg8"
                 />
@@ -959,7 +959,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/DFYN.svg").default}
+                  src={require("../assets/sikka.svg").default}
                   alt="Group img 9"
                   id="ecoImg9"
                 />
@@ -967,7 +967,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/division.svg").default}
+                  src={require("../assets/Simple hold.svg").default}
                   alt="Group img 10"
                   id="ecoImg10"
                 />
@@ -975,7 +975,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/EPNS.svg").default}
+                  src={require("../assets/simple swap.svg").default}
                   alt="Group img 11"
                   id="ecoImg11"
                 />
@@ -983,7 +983,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/fantom.svg").default}
+                  src={require("../assets/stafii.svg").default}
                   alt="Group img 12"
                   id="ecoImg12"
                 />
@@ -991,7 +991,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/genesis.svg").default}
+                  src={require("../assets/Stealth.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -999,7 +999,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/injective protocol.svg").default}
+                  src={require("../assets/sushiswap.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1007,7 +1007,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Kucoin.svg").default}
+                  src={require("../assets/tidal.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1015,7 +1015,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/mirror.svg").default}
+                  src={require("../assets/trust wallet.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1023,7 +1023,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/MXC.svg").default}
+                  src={require("../assets/umbrella network.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1031,7 +1031,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/nord.svg").default}
+                  src={require("../assets/unicorn venture.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1039,7 +1039,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/oddz.svg").default}
+                  src={require("../assets/UNion.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1047,7 +1047,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/paraswap.svg").default}
+                  src={require("../assets/uniswap.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1055,7 +1055,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Playcent.svg").default}
+                  src={require("../assets/wazirx.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1063,7 +1063,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/polka bridhge.svg").default}
+                  src={require("../assets/yop.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1071,7 +1071,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Polugon.svg").default}
+                  src={require("../assets/zebpay.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
@@ -1079,12 +1079,12 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/poolz.svg").default}
+                  src={require("../assets/Zeroswap.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
               </div>
-              <div className="our-ecosystem-card">
+              {/* <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
                   src={require("../assets/probit.svg").default}
@@ -1163,7 +1163,7 @@ export default function Homepage() {
                   alt="Group img 13"
                   id="ecoImg13"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
