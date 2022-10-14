@@ -6,7 +6,7 @@ import polygonLogo from "../assets/PolygonLogo.png";
 import binance from "../assets/BInanceLogo.png";
 import explore from "../assets/Lendingui.svg";
 import explore2 from "../assets/exploreImg4.png";
-import binanceImg from "../assets/bin.svg";
+import binanceImg from "../assets/binance.svg";
 import uniswap from "../assets/uniswap.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -417,7 +417,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Binance.svg").default}
+                  src={require("../assets/bnance.svg").default}
                   alt="Group img 11"
                   id="ecoImg11"
                 />
