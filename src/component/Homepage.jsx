@@ -1077,7 +1077,7 @@ export default function Homepage() {
               <div className="our-ecosystem-card">
                 <img
                   className="our-ecosystem-card-img"
-                  src={require("../assets/Zeroswap.svg").default}
+                  src={require("../assets/zeroswap.svg").default}
                   alt="Group img 13"
                   id="ecoImg13"
                 />
