@@ -520,8 +520,6 @@ video::-webkit-media-controls-panel {
   height: 9.125rem;
   display: grid;
   place-content: center;
-  /* box-shadow: 9.73693px 3.24564px 9.73693px rgba(156, 172, 242, 0.68);
-  border-radius: 8.92552px; */
 }
 .shadowBtn {
   margin-left: 3rem;
